@@ -66,7 +66,7 @@ const AlumniTestimonials = [
     id: 7,
     quote:
       "Saya belajar banyak tentang manajemen waktu dan ketelitian di jurusan Akuntansi. Sekarang saya dipercaya memegang keuangan vendor besar.",
-    name: "Dewi Lestari",
+    name: "Diah Uzumaki",
     year: "2022",
     role: "Finance Accounting",
     avatar:
