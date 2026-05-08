@@ -2,48 +2,46 @@
 
 import AngledCard from "../AngledCard";
 import { Trophy, UserRoundPen, UsersRound, School } from "lucide-react";
-// import { AnimatedNumber } from "./motion-primitives/animated-number";
 import dynamic from "next/dynamic";
-
-// Tambahkan .then((mod) => mod.NamaKomponen)
-const AnimatedNumber = dynamic(
-  () =>
-    import("@/components/motion-primitives/animated-number").then(
-      (mod) => mod.AnimatedNumber,
-    ),
-  {
-    ssr: false,
-    // Opsional: berikan fallback jika angka belum termuat
-    loading: () => <span>0</span>,
-  },
-);
-
-let overviewCardContent = [
-  {
-    icon: UserRoundPen,
-    total: 60,
-    title: "Guru",
-  },
-  {
-    icon: UsersRound,
-    total: 1200,
-    title: "Siswa",
-  },
-  {
-    icon: School,
-    total: 5,
-    title: "Jurusan",
-  },
-  {
-    icon: Trophy,
-    total: 100,
-    title: "Prestasi",
-  },
-];
-
-let angka = 1000;
+import { AnimatedNumber } from "../motion-primitives/animated-number";
+import { useEffect, useRef, useState } from "react";
 
 export default function Overview() {
+  const [Guru, setGuru] = useState(0);
+  const [Siswa, setSiswa] = useState(0);
+  const [Jurusan, setJurusan] = useState(0);
+  const [Prestasi, setPrestasi] = useState(0);
+
+  useEffect(() => {
+    setGuru(60);
+    setSiswa(1200);
+    setJurusan(5);
+    setPrestasi(100);
+  }, []);
+
+  let overviewCardContent = [
+    {
+      icon: UserRoundPen,
+      total: Guru,
+      title: "Guru",
+    },
+    {
+      icon: UsersRound,
+      total: Siswa,
+      title: "Siswa",
+    },
+    {
+      icon: School,
+      total: Jurusan,
+      title: "Jurusan",
+    },
+    {
+      icon: Trophy,
+      total: Prestasi,
+      title: "Prestasi",
+    },
+  ];
+
   return (
     <section className="container">
       {/* greetings */}
@@ -84,7 +82,7 @@ export default function Overview() {
                       bounce: 0,
                       duration: 3000,
                     }}
-                    value={200}
+                    value={item.total}
                   />
                   {index == overviewCardContent.length - 1 && <div>+</div>}
                 </div>

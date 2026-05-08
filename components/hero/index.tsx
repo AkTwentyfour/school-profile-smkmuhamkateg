@@ -10,11 +10,6 @@ export default function Hero() {
   return (
     <>
       <div className="container min-h-dvh relative">
-        <div
-          className="
-          w-full h-1/7 lg:h-1/5 absolute left-0 bottom-0 z-40 filter backdrop-blur-xs rounded-4xl
-        "
-        ></div>
         {/* <img src="/img/hero.png" alt="Gedung kampus 2 SMK Muhamkateg" className="object-cover absolute right-0 bottom-0 w-full h-full"/>; */}
         <video
           autoPlay
@@ -29,7 +24,7 @@ export default function Hero() {
         </video>
 
         {/* main card */}
-        <div className="absolute bottom-0 left-0 z-100 w-full flex justify-between align-bottom p-7 lg:p-0">
+        <div className="absolute bottom-0 left-0 z-100 w-full flex justify-between align-bottom p-7 lg:p-0 filter backdrop-blur-xs rounded-t-4xl">
           <AngledCard
             className="hidden lg:block"
             variant="slantRight"
@@ -37,14 +32,14 @@ export default function Hero() {
             description={HeroContent.description}
           />
 
-          <div className="text-start lg:text-center w-full lg:w-1/3">
-            <h3 className="text-lg font-bold text-white mb-3">Lorem ipsum</h3>
+            <div className="text-start lg:text-center w-full lg:w-1/3 lg:mt-5">
+              <h3 className="text-lg font-bold text-white mb-3">Lorem ipsum</h3>
 
-            <p className="text-slate-200 w-full text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut.
-            </p>
-          </div>
+              <p className="text-slate-200 w-full text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut.
+              </p>
+            </div>
 
           <AngledCard
             className="hidden lg:block"
