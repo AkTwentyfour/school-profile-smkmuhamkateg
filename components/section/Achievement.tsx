@@ -12,7 +12,6 @@ import Autoplay from "embla-carousel-autoplay";
 import { delay } from "motion";
 
 const FacilityContent = [
-  // ================= GELOMBANG 1 (5 Item) =================
   [
     {
       image:
@@ -46,7 +45,6 @@ const FacilityContent = [
     },
   ],
 
-  // ================= GELOMBANG 2 (5 Item) =================
   [
     {
       image:
@@ -80,7 +78,6 @@ const FacilityContent = [
     },
   ],
 
-  // ================= GELOMBANG 3 (5 Item) =================
   [
     {
       image:
@@ -114,7 +111,6 @@ const FacilityContent = [
     },
   ],
 
-  // ================= GELOMBANG 4 (5 Item) =================
   [
     {
       image:
@@ -150,17 +146,9 @@ const FacilityContent = [
 ];
 
 const layoutPatterns: VariantImageCard[][] = [
-  // Pattern 1: Atas (2-1-1), Bawah (2-2) -> Penuh
-
   ["landscape", "default", "default", "landscape", "landscape"],
-
-  // Pattern 2: Atas (1-2-1), Bawah (2-1) -> Seperti screenshot kamu saat ini
   ["default", "landscape", "portrait", "landscape", "default"],
-
-  // Pattern 3: Atas (2-2), Bawah (1-1-2) -> Penuh
   ["landscape", "default", "default", "landscape", "landscape"],
-
-  // Pattern 4: Atas (1-1-2), Bawah (2-1) -> Ada 1 kotak kosong
   ["landscape", "portrait", "portrait", "default", "portrait"],
 ];
 
