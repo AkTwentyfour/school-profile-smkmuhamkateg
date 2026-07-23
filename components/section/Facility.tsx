@@ -4,37 +4,37 @@ import ImageCard from "../ImageCard";
 const FacilityContent = [
   {
     image:
-      "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1000&q=80",
+      "https://xhliznshwbogicaypsuk.supabase.co/storage/v1/object/public/muhamka-images/library.jpeg",
     title: "perpustakaan",
     tag: ["1000+ Buku", "Ruang Nyaman", "Gen Z Friendly", "Wifi"],
   },
   {
     image:
-      "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=600&q=80",
+      "https://xhliznshwbogicaypsuk.supabase.co/storage/v1/object/public/muhamka-images/tkro%20(11).jpeg",
     title: "Bengkel Praktik",
     tag: ["Perlengkapan Lengkap", "Standar Industri"],
   },
   {
     image:
-      "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=600&q=80",
+      "https://xhliznshwbogicaypsuk.supabase.co/storage/v1/object/public/muhamka-images/tkro%20(1).jpeg",
     title: "Lab Elektronika",
     tag: ["Rangkaian Elektronik", "Standar Industri"],
   },
   {
     image:
-      "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80",
+      "https://xhliznshwbogicaypsuk.supabase.co/storage/v1/object/public/muhamka-images/classroom%20(3).jpeg",
     title: "Ruang Kelas",
     tag: ["Ruang Nyaman", "Proyektor", "AC"],
   },
   {
     image:
-      "https://images.unsplash.com/photo-1505666287802-931dc83948e9?w=600&q=80",
+      "https://xhliznshwbogicaypsuk.supabase.co/storage/v1/object/public/muhamka-images/field.jpeg",
     title: "Lapangan",
     tag: ["Futsal", "Basket", "Sepakbola"],
   },
   {
     image:
-      "https://images.unsplash.com/photo-1517502884422-41eaead166d4?w=1000&q=80",
+      "https://xhliznshwbogicaypsuk.supabase.co/storage/v1/object/public/muhamka-images/multimedia%20(1).jpeg",
     title: "Laboratorium Komputer",
     tag: ["40 Unit PC", "Internet Cepat", "Software Lengkap"],
   },
@@ -42,7 +42,7 @@ const FacilityContent = [
 
 export default function Facility() {
   return (
-    <section className="relative">
+    <section className="relative" id="facility">
       <img
         src="/img/eclipse.svg"
         alt="eclipse-gaphic"

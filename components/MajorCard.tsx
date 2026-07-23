@@ -19,7 +19,7 @@ export default function MajorCard({icon: Icon, name, desc}: MajorCardProps) {
             <div>
                 <h2 className="text-lg font-bold">{name}</h2>
                 <p className="text-xs my-3">{desc}</p>
-                <a className="text-xs text-brand-primary flex items-center gap-2" href="">Lihat Selengkapnya <span><ArrowRight className="h-3"/></span></a>
+                {/* <a className="text-xs text-brand-primary flex items-center gap-2" href="">Lihat Selengkapnya <span><ArrowRight className="h-3"/></span></a> */}
             </div>
         </div>
     )

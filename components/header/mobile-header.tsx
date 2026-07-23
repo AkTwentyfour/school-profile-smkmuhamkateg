@@ -32,8 +32,8 @@ export function MobileHeader({
 }: MobileHeaderProps) {
   const links = [
     { href: "/", label: "Beranda" },
-    { href: "/", label: "Profil" },
-    { href: "/", label: "Kompetensi" },
+    { href: "#profile", label: "Profil" },
+    { href: "#major", label: "Kompetensi" },
     { href: "/", label: "Data Sekolah" },
     { href: "/", label: "Informasi Pendaftaran" },
     { href: "/", label: "Informasi Seleksi" },

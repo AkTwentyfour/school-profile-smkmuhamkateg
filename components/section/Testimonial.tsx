@@ -5,27 +5,27 @@ const AlumniTestimonials = [
   {
     id: 1,
     quote:
-      "Selama belajar di TKRO, saya mendapatkan banyak pengalaman praktik yang sangat membantu saat langsung terjun ke dunia kerja.",
+      "Selama belajar di TKRO, saya mendapatkan banyak pengalaman praktik mesin mobil yang sangat membantu saat langsung terjun ke industri otomotif.",
     name: "Andi Pratama",
     year: "2024",
-    role: "Operator AHM Pusat",
+    role: "Mekanik Nasmoco (Toyota)",
     avatar:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",
   },
   {
     id: 2,
     quote:
-      "Fasilitas laboratorium komputer yang mumpuni sangat menunjang karier saya. Pembekalan skill programming dari guru membuat saya siap bersaing.",
+      "Fasilitas laboratorium komputer yang mumpuni sangat menunjang karier saya. Pembekalan skill software 3D dari guru Animasi membuat saya siap bersaing.",
     name: "Budi Santoso",
     year: "2023",
-    role: "Junior Web Developer",
+    role: "3D Animator",
     avatar:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",
   },
   {
     id: 3,
     quote:
-      "Disiplin dan standar industri yang diterapkan selama praktik bengkel membuat saya sangat mudah beradaptasi dengan lingkungan kerja profesional.",
+      "Disiplin merangkai komponen saat praktik bengkel Teknik Elektronika membuat saya sangat mudah beradaptasi dengan lingkungan kerja profesional di pabrik.",
     name: "Siti Aisyah",
     year: "2022",
     role: "Teknisi PT Epson",
@@ -35,47 +35,47 @@ const AlumniTestimonials = [
   {
     id: 4,
     quote:
-      "Pembelajaran tidak hanya soal teori, tapi praktik langsung dengan mesin modern. Terima kasih sudah membantu saya membuka usaha mandiri.",
+      "Pembelajaran di TSM tidak hanya soal teori, tapi praktik langsung bongkar mesin motor modern. Terima kasih sudah membantu saya membuka usaha mandiri.",
     name: "Dimas Anggara",
     year: "2021",
-    role: "Owner Dimas Motor",
+    role: "Owner Bengkel Dimas Motor",
     avatar:
       "https://images.unsplash.com/photo-1542343633-ce3256f2183e?w=150&h=150&fit=crop",
   },
   {
     id: 5,
     quote:
-      "Sertifikasi yang difasilitasi sekolah menjadi nilai plus saat melamar pekerjaan. Lulusan sekolah ini memang beda dan sangat kompeten!",
+      "Sertifikasi mesin bubut dan CNC yang difasilitasi sekolah menjadi nilai plus saat melamar pekerjaan. Lulusan Teknik Pemesinan SMK Muhamka memang kompeten!",
     name: "Kevin Setiawan",
     year: "2024",
-    role: "Network Engineer",
+    role: "Operator Mesin CNC",
     avatar:
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop",
   },
   {
     id: 6,
     quote:
-      "Keaktifan di organisasi sekolah membentuk karakter kepemimpinan saya. Ini sangat berguna untuk mengelola tim di tempat kerja.",
+      "Pemahaman mendalam soal servis berkala di jurusan TKRO membuat saya percaya diri melayani keluhan pelanggan di bengkel resmi.",
     name: "Rina Kusuma",
     year: "2023",
-    role: "Staff Administrasi",
+    role: "Service Advisor Astra",
     avatar:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop",
   },
   {
     id: 7,
     quote:
-      "Saya belajar banyak tentang manajemen waktu dan ketelitian di jurusan Akuntansi. Sekarang saya dipercaya memegang keuangan vendor besar.",
+      "Saya bangga bisa jadi mekanik perempuan. Ilmu kelistrikan dan sistem injeksi dari bengkel TSM sangat aplikatif di tempat kerja.",
     name: "Diah Uzumaki",
     year: "2022",
-    role: "Finance Accounting",
+    role: "Mekanik AHASS Honda",
     avatar:
       "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=150&h=150&fit=crop",
   },
   {
     id: 8,
     quote:
-      "Ilmu kelistrikan yang diajarkan sangat mendalam. Dari nol sampai bisa instalasi industri, semua berkat bimbingan guru-guru hebat.",
+      "Ilmu elektronika industri yang diajarkan sangat mendalam. Dari nol sampai bisa instalasi otomatisasi, semua berkat bimbingan guru-guru hebat.",
     name: "Fajar Ramadhan",
     year: "2021",
     role: "Electrical Technician",
@@ -85,27 +85,27 @@ const AlumniTestimonials = [
   {
     id: 9,
     quote:
-      "Dunia fashion ternyata sangat luas. Berawal dari tugas jahit di sekolah, sekarang saya bisa magang di butik ternama di Jakarta.",
+      "Berawal dari tugas gambar teknik di jurusan Pemesinan, sekarang saya mahir membuat rancangan presisi untuk berbagai komponen manufaktur.",
     name: "Maya Indah",
     year: "2024",
-    role: "Fashion Assistant",
+    role: "Drafter AutoCAD",
     avatar:
       "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop",
   },
   {
     id: 10,
     quote:
-      "Teknik alat berat adalah jurusan yang menantang. Berkat sertifikat sekolah, saya langsung diterima di perusahaan pertambangan.",
+      "Dunia desain grafis dan animasi ternyata sangat luas. Berkat portofolio yang dibangun sejak SMK, saya langsung diterima di creative agency.",
     name: "Hendra Wijaya",
     year: "2023",
-    role: "Heavy Equipment Mechanic",
+    role: "Motion Graphic Designer",
     avatar:
       "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=150&h=150&fit=crop",
   },
   {
     id: 11,
     quote:
-      "Ilmu multimedia yang saya dapat sangat relevan. Sekarang saya bekerja sebagai editor video yang menangani klien dari luar negeri.",
+      "Ilmu multimedia dan editing yang saya dapat di jurusan Animasi sangat relevan. Sekarang saya bekerja sebagai editor video yang menangani klien luar negeri.",
     name: "Gilang Permana",
     year: "2022",
     role: "Video Editor",
@@ -115,10 +115,10 @@ const AlumniTestimonials = [
   {
     id: 12,
     quote:
-      "Pelajaran pemasaran digital di sekolah membuka mata saya tentang potensi jualan online. Sekarang bisnis kecil saya berkembang pesat.",
+      "Ketelitian dalam mengukur komponen menggunakan alat ukur presisi di bengkel Pemesinan sangat berguna di posisi saya sebagai pemeriksa kualitas.",
     name: "Eka Putri",
     year: "2024",
-    role: "Digital Marketer",
+    role: "Quality Control Manufaktur",
     avatar:
       "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=150&h=150&fit=crop",
   },

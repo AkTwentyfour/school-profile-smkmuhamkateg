@@ -31,7 +31,7 @@ const majorContent = [
 
 export default function Major() {
   return (
-    <section className="container md:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 box-border">
+    <section className="container md:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 box-border" id="major">
       <h1 className="text-xl lg:text-2xl font-bold mb-2 text-center">
         Jurusan
       </h1>

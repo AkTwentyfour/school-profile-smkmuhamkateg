@@ -43,7 +43,7 @@ export default function Overview() {
   ];
 
   return (
-    <section className="container">
+    <section className="" id="overview">
       {/* greetings */}
       <div className="text-center py-10">
         <h1 className="text-2xl font-bold">
@@ -62,13 +62,13 @@ export default function Overview() {
         </div>
 
         <img
-          src="/img/hero.png"
+          src="https://xhliznshwbogicaypsuk.supabase.co/storage/v1/object/public/muhamka-images/main-building%20(2).jpeg"
           alt="Gedung kampus 2 SMK Muhamkateg"
           className="object-cover absolute right-0 bottom-0 w-full h-full -z-10"
         />
 
         {/* card content */}
-        <div className="max-w-sm md:max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 box-border text-white">
+        <div className="max-w-sm md:max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 box-border text-white">
           <div className="flex justify-center items-center gap-2 lg:gap-4">
             {overviewCardContent.map((item, index) => (
               <div

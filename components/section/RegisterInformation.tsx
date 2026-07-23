@@ -80,7 +80,7 @@ const TimelineInformation = [
 
 export default function RegisterInformation() {
   return (
-    <section className="relative">
+    <section className="relative" id="regist-information">
       <img
         src="/img/eclipse2.svg"
         alt="eclipse-gaphic"

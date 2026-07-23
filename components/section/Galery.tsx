@@ -5,27 +5,27 @@ const styleVariant: VariantImageCard[] = ["default", "landscape", "portrait", "l
 const GaleryContent = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=800&q=80",
+    image: "https://xhliznshwbogicaypsuk.supabase.co/storage/v1/object/public/muhamka-images/tkro%20(2).jpeg",
     alt: "Kegiatan praktik siswa di bengkel otomotif",
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=800&q=80",
-    alt: "Fasilitas alat ukur di laboratorium elektronika",
+    image: "https://xhliznshwbogicaypsuk.supabase.co/storage/v1/object/public/muhamka-images/cafe%20(1).jpeg",
+    alt: "Tempat bersantai siswa",
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
+    image: "https://xhliznshwbogicaypsuk.supabase.co/storage/v1/object/public/muhamka-images/classroom%20(2).jpeg",
     alt: "Ruang kelas modern yang nyaman dan ber-AC",
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
-    alt: "Suasana perpustakaan sekolah yang tenang",
+    image: "https://xhliznshwbogicaypsuk.supabase.co/storage/v1/object/public/muhamka-images/main-building%20(2).jpeg",
+    alt: "Suasana halaman sekolah yang luas",
   },
   {
     id: 5,
-    image: "https://images.unsplash.com/photo-1517502884422-41eaead166d4?w=800&q=80",
+    image: "https://xhliznshwbogicaypsuk.supabase.co/storage/v1/object/public/muhamka-images/multimedia%20(1).jpeg",
     alt: "Laboratorium komputer dengan unit PC terbaru",
   }
 ];
