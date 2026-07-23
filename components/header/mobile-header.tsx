@@ -35,8 +35,8 @@ export function MobileHeader({
     { href: "#profile", label: "Profil" },
     { href: "#major", label: "Kompetensi" },
     { href: "/", label: "Data Sekolah" },
-    { href: "/", label: "Informasi Pendaftaran" },
-    { href: "/", label: "Informasi Seleksi" },
+    { href: "https://ppdb.smkmuhamkateg.sch.id/", label: "Informasi Pendaftaran" },
+    { href: "#regist-information", label: "Informasi Seleksi" },
   ];
 
   return (
